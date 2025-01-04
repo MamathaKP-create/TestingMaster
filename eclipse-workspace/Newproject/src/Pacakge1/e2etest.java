@@ -67,7 +67,7 @@ public class e2etest extends Datatesting {
 		driver.findElement(By.xpath("//a[@class='btnn action__submit ng-star-inserted']")).click();
 		String confmesg= driver.findElement(By.xpath("//h1[@class='hero-primary']")).getText();
 		Assert.assertTrue(confmesg.equalsIgnoreCase("Thankyou for the order."));
-		System.out.println("first change");
+		System.out.println("first change1");
 }
 	@DataProvider()
 	public Object[][] getdata() throws IOException
